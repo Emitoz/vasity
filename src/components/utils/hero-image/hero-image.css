@@ -1,0 +1,6 @@
+@media screen and (max-width: 768px) {
+    .overflow-content img {
+      max-width: 140%;
+      margin-left: -20%;
+    }
+}

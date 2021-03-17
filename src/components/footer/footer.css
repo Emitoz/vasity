@@ -1,0 +1,27 @@
+footer img {
+    margin-top: -40px;
+}
+
+footer .email-input {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 3px;
+    padding: 4px;
+    width: inherit;
+    max-width: 90%
+}
+
+footer .email-input input {
+    background: none;
+    border: none;
+    outline: none;
+    font-size: .8em;
+    color: #fff;
+    width: 70%
+}
+footer .email-input input:focus, footer .email-input input:active {
+    border: none;
+    outline: none
+}
+footer .email-input button {
+    width: 30%
+}
