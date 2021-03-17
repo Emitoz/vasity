@@ -1,4 +1,3 @@
-import { useEffect, useState } from 'react';
 import { Box } from "@material-ui/core";
 import Testimonial from "../testimonial";
 import getUsers from '../../data/users';
