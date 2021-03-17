@@ -8,7 +8,7 @@ const Navbar = () => {
         <div className="nav py-3">
             <div className="container">
                 <div className="logo">
-                    <img src={logo} style={{ height: 30 }}/>
+                    <img src={logo} style={{ height: 30 }} alt="some alt"/>
                 </div>
                 <ul className="float-right">
                     <li>About us</li>

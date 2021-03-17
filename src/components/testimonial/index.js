@@ -9,7 +9,7 @@ const Testimonial = ({ user, showLocation }) => {
     return (
         <Box>
             <div>
-                <img src={user.image} style={{ height: 150, width: 150 }}/>
+                <img src={user.image} style={{ height: 150, width: 150 }} alt="some alt"/>
                 <h5 className="mt-3">{ user.name }</h5>
                 <div>
                     {showLocation && <small style={{ color: '#535353', fontSize: `.7em`, marginRight: 20 }}>{user.location}</small>}

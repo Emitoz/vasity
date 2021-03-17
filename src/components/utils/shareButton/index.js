@@ -13,8 +13,8 @@ const ShareButton = ({ color, toggleModal }) => {
 
     return (
         <Box>
-            <a type="button" onClick={() => toggleModal} style={style}>Share your own story!</a>
-            <img src={underline} style={{ width: 200, marginTop: `-20px` }} alt="image"/>
+            <p type="button" onClick={() => toggleModal} style={style}>Share your own story!</p>
+            <img src={underline} style={{ width: 200, marginTop: `-20px` }} alt="some alt"/>
         </Box>
     );
 }
