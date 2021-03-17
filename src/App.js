@@ -1,6 +1,4 @@
 import { useState } from 'react';
-import { makeStyles } from '@material-ui/core/styles';
-import Modal from '@material-ui/core/Modal';
 import Navbar from "./components/navbar";
 import Main from "./components/main";
 import Footer from "./components/footer";
