@@ -6,6 +6,16 @@ body {
   font-family: 'Inter', sans-serif;
 }
 
+.App {
+  overflow: hidden;
+}
+
 img {
   max-width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    /* width: 90%; */
+  }
 }

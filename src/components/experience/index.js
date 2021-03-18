@@ -1,19 +1,20 @@
 import { Box } from '@material-ui/core';
 import TextContent from './TextContent';
 import HeroImage from "../utils/hero-image";
-import './experience.module.css';
+import './experience.css';
 
 const Experience = ({ background, order, color, accent, textContent, image, customer, userType, toggleModal }) => {
 
     const expStyle = {
-        background: background
+        background: background,
+        overflow: 'hidden'
     }
 
     return (
-        <Box style={expStyle}>
+        <Box style={expStyle} className="experience">
             <div className="container pt-5">    
                 { order !== 'image-first' ? 
-                    <div className="row experience-row">
+                    <div className="row">
                         <div className="col-lg-4">
                             <TextContent 
                                 customer={customer} 

@@ -1,5 +1,6 @@
 import { Box } from "@material-ui/core";
 import underline from '../../../assets/curve.svg';
+import './share-button.css';
 
 const ShareButton = ({ color, toggleModal }) => {
 
@@ -7,12 +8,12 @@ const ShareButton = ({ color, toggleModal }) => {
         color,
         fontSize: `.7em`,
         textTransform: 'uppercase',
-        cursor: 'pointer',
-        marginLeft: 20
+        marginLeft: 20,
+        marginBottom: 0
     }
 
     return (
-        <Box>
+        <Box className="share-button">
             <p type="button" onClick={() => toggleModal} style={style}>Share your own story!</p>
             <img src={underline} style={{ width: 200, marginTop: `-20px` }} alt="some alt"/>
         </Box>

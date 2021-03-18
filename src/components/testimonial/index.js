@@ -1,6 +1,7 @@
 import { Box } from "@material-ui/core";
 import Tag from "../utils/tag";
 import Paragraph from "../utils/paragraph";
+import './testimonial.css';
 
 const Testimonial = ({ user, showLocation }) => {
 
@@ -8,7 +9,7 @@ const Testimonial = ({ user, showLocation }) => {
 
     return (
         <Box>
-            <div>
+            <div className="testimonial">
                 <img src={user.image} style={{ height: 150, width: 150 }} alt="some alt"/>
                 <h5 className="mt-3">{ user.name }</h5>
                 <div>

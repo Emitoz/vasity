@@ -1,0 +1,8 @@
+.share-button {
+    cursor: pointer;
+    transition: .3s
+}
+.share-button:hover {
+    transform: scale(1.1);
+    font-weight: bold;
+}

@@ -25,3 +25,46 @@ footer .email-input input:focus, footer .email-input input:active {
 footer .email-input button {
     width: 30%
 }
+
+footer h6 {
+    font-size: .9em;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    font-size: .85em;
+    margin-top: 10px;
+}
+
+footer ul.social-links {
+    display: flex;
+    margin-top: 30px
+}
+
+footer ul.social-links li {
+    margin-right: 10px
+}
+
+@media screen and (max-width: 768px){
+    footer .footer-subscribe .row {
+        display: flex;
+        flex-flow: column-reverse;
+    }
+
+    footer img {
+        margin-top: 40px;
+    }
+
+    footer ul.social-links {
+        margin-top: 20px
+    }
+    footer ul.social-links li img {
+        margin-top: 0
+    }
+}
